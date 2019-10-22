@@ -5,6 +5,7 @@ class NodeTest < Minitest::Test
   # setup().
   # @abstract: establishes the test variables.
   def setup()
+
     # @fixnum       = Fixnum(0)
     @float        = Float(0.1)
     @complex      = Complex(1)
@@ -12,17 +13,25 @@ class NodeTest < Minitest::Test
     @sym          = :sym
     @string       = "hello world"
     @node         = Node.new()
-    @fixnum_node  = Node.new(@fixnum)
-    @float_node   = Node.new(@float)
-    @complex_node = Node.new(@complex)
-    @time_node    = Node.new(@time)
-    @symbol_node  = Node.new(@sym)
-    @string_node  = Node.new(@string)
+    # @fixnum_node  = Node.new(@fixnum)
+    @float_node     = Node.new(@float)
+    @complex_node   = Node.new(@complex)
+    @time_node      = Node.new(@time)
+    @symbol_node    = Node.new(@sym)
+    @string_node    = Node.new(@string)
+    @node_2         = Node.new()
+    @float_node_2   = Node.new(@float)
+    @complex_node_2 = Node.new(@complex)
+    @time_node_2    = Node.new(@time)
+    @symbol_node_2  = Node.new(@sym)
+    @string_node_2  = Node.new(@string)
+
   end
 
   # test_atomic_data().
   # @abstract: gets the data attribute value.
   def test_atomic_data()
+
     assert_equal(@node.data(), nil)
     # assert_equal(@fixnum_node.data(), @fixnum)
     assert_equal(@float_node.data(), @float)
@@ -30,9 +39,12 @@ class NodeTest < Minitest::Test
     assert_equal(@time_node.data(), @time)
     assert_equal(@symbol_node.data(), @sym)
     assert_equal(@string_node.data(), @string)
+
   end
 
-  def test_that_it_has_a_version_number
+  # test_that_it_has_a_version_number().
+  # @abstract: the file defined its version constant.
+  def test_that_it_has_a_version_number()
     refute_nil ::Node::VERSION
   end
 
@@ -54,11 +66,6 @@ class NodeTest < Minitest::Test
   # @abstract: node's data is equal and the objects are not eql?().
   def test_equality_operator()
 
-    @node_2         = Node.new()
-    @float_node_2   = Node.new(@float)
-    @complex_node_2 = Node.new(@complex)
-    @time_node_2    = Node.new(@time)
-    @symbol_node_2  = Node.new(@sym)
     # @fixnum_node_2  = Node.new(@fixnum)
     assert_equal(@node.data(), @node_2.data())
     refute(@node.eql?(@node_2))
@@ -85,11 +92,6 @@ class NodeTest < Minitest::Test
   # @abstract: assign_node(node) deeply copies atomic type nodes.
   def test_assign_node()
 
-    @node_2         = Node.new(nil)
-    @float_node_2   = Node.new(@float)
-    @complex_node_2 = Node.new(@complex)
-    @time_node_2    = Node.new(@time)
-    @symbol_node_2  = Node.new(@sym)
     # @fixnum_node_2  = Node.new(@fixnum)
     @node.assign_node(@node_2)
     @float_node.assign_node(@float_node_2)
@@ -113,4 +115,5 @@ class NodeTest < Minitest::Test
     assert(@symbol_node.data().eql?(@symbol_node_2.data()))
 
   end
+
 end
