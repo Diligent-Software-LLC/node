@@ -1,8 +1,11 @@
 require "node/version"
+require 'node_helper'
 
 # Node.
 # @abstract: Defines and implements a node class.
 class Node
+
+  include NodeHelper
 
   # initialize(data).
   # @abstract: the alternative constructor.

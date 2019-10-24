@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="031bb61f-fc84-4040-a166-5e855cb51718" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571704306418</updated>
-      <workItem from="1571704308726" duration="9790000" />
+      <workItem from="1571704308726" duration="9829000" />
     </task>
     <task id="LOCAL-00001" summary="initialize repository.">
       <created>1571706603792</created>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571877801087</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added helper method.">
+      <created>1571958149773</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571958149773</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +156,8 @@
     <MESSAGE value="fixed bug." />
     <MESSAGE value="fixed method names." />
     <MESSAGE value="fixed method name." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed method name." />
+    <MESSAGE value="Added helper method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added helper method." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
