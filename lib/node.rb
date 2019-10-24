@@ -20,11 +20,7 @@ class Node
   # data().
   # @abstract: getter method. Gets the node's data attribute.
   def data()
-    if (@data.class == Bignum || @data.class == String || @data.class === Time)
-      return @data.dup()
-    else
-      return @data
-    end
+    return @data
   end
 
   # ==(node).
@@ -38,19 +34,16 @@ class Node
     return node.data().eql?(data())
   end
 
-  # assign_node(node).
+  # assign(node).
   # @abstract: deeply copy the argued node and assign self the deeply duped data.
   # @param node: a Node instance object.
   # @return: nil.
-  def assign_node(node)
+  def assign(node)
     if (!node.instance_of?(Node))
       raise ArgumentError, "#{node.class} is not a Node instance."
     end
-    copy      = deeply_dup(node)
-    self.data = copy.data()
+    self.data = node.data()
   end
-
-  private
 
   # data=(object).
   # @abstract: setter method. Sets the node's data attribute.
@@ -64,11 +57,12 @@ class Node
     end
   end
 
-  # deeply_dup(node).
-  # @abstract: deeply copies the passed node.
+  # copy(node).
+  # @abstract: creates a node and assigns the data attribute the argued node's
+  # data attribute.
   # @return: the copy.
-  def deeply_dup(node)
-    return Node.new(node.data())
+  def copy_self()
+    return Node.new(data())
   end
 
 end
