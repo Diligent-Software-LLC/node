@@ -57,7 +57,7 @@ class Node
     end
   end
 
-  # copy(node).
+  # copy_self(node).
   # @abstract: creates a node and assigns the data attribute the argued node's
   # data attribute.
   # @return: the copy.
