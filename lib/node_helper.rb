@@ -15,4 +15,17 @@ module NodeHelper
 
   end
 
+  # verify_node_object(node).
+  # @abstract: in the case the argument is a DLLNode, returns true. Otherwise, raises an ArgumentError.
+  # @param node: a DLLNode instance object.
+  # @return: true in the case the argument is a DLLNode instance.
+  def verify_node_object(node)
+    case (node.class)
+    when Node
+      return true
+    else
+      raise ArgumentError, "#{node.class} is not a Node."
+    end
+  end
+
 end

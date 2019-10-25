@@ -11,13 +11,7 @@ class Node
   # @abstract: the alternative constructor.
   # @attribute data: the node's data.
   def initialize(data = nil)
-    if (!(data.nil? || data.class == String || data.class == Fixnum ||
-        data.class == Float || data.class == Complex ||
-        data.class == Time || data.class == Symbol || data.class == Bignum))
-      raise ArgumentError, "#{data.class} is an unacceptable data type."
-    else
-      self.data = data
-    end
+    self.data = data
   end
 
   # data().
@@ -31,41 +25,34 @@ class Node
   # @param node: a Node object.
   # @return: if equal, true. Otherwise, false.
   def ==(node)
-    if (!node.instance_of?(Node))
-      raise ArgumentError, "#{node.class} is not a Node instance."
+    if (verify_node_object(node))
+      return node.data().eql?(data())
     end
-    return node.data().eql?(data())
   end
 
-  # assign(node).
-  # @abstract: deeply copy the argued node and assign self the deeply duped data.
-  # @param node: a Node instance object.
-  # @return: nil.
-  def assign(node)
-    if (!node.instance_of?(Node))
-      raise ArgumentError, "#{node.class} is not a Node instance."
+  # deeply_dup().
+  # @abstract: deeply copies self.
+  # @return: self's deep copy.
+  def deeply_dup()
+    case (data().class)
+    when String, Time, Bignum
+      data_temp = data().dup()
+    when Fixnum, Float, Complex, Symbol
+      data_temp = data()
+    else
+      data_temp = nil
     end
-    self.data = node.data()
+    return Node.new(data_temp)
   end
+
+  private
 
   # data=(object).
   # @abstract: setter method. Sets the node's data attribute.
   def data=(object)
-    if (!(data.nil? || data.class == String || data.class == Fixnum ||
-        data.class == Float || data.class == Complex ||
-        data.class == Time || data.class == Symbol || data.class == Bignum))
-      raise ArgumentError, "#{data.class} is an unacceptable data type."
-    else
-      @data = object
+    if (verify_data_type(object))
+      return @data = object
     end
-  end
-
-  # copy_self(node).
-  # @abstract: creates a node and assigns the data attribute the argued node's
-  # data attribute.
-  # @return: the copy.
-  def copy_self()
-    return Node.new(data())
   end
 
 end
