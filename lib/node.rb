@@ -38,10 +38,10 @@ class Node
   # @return: self's deep copy.
   def deeply_dup()
 
-    case (data().class)
-    when String, Time, Bignum
+    case (data().class.to_s.to_sym)
+    when :String, :Time, :Bignum
       data_temp = data().dup()
-    when Fixnum, Float, Complex, Symbol
+    when :Fixnum, :Float, :Complex, :Symbol
       data_temp = data()
     else
       data_temp = nil
