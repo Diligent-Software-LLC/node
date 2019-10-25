@@ -66,53 +66,16 @@ class NodeTest < Minitest::Test
   # @abstract: node's data is equal and the objects are not eql?().
   def test_equality_operator()
 
-    # @fixnum_node_2  = Node.new(@fixnum)
-    assert_equal(@node.data(), @node_2.data())
-    refute(@node.eql?(@node_2))
     assert_equal(@node, @node_2)
-    # assert_equal(@fixnum_node.data(), @fixnum_node_2.data())
-    # refute(@fixnum_node.eql?((@fixnum_node_2)))
-    # assert_equal(@fixnum_node, @fixnum_node_2)
-    assert_equal(@float_node.data(), @float_node_2.data())
-    refute(@float_node.eql?(@float_node_2))
-    assert_equal(@float_node, @float_node_2)
-    assert_equal(@complex_node.data(), @complex_node_2.data())
-    refute(@complex_node.eql?(@complex_node_2))
-    assert_equal(@complex_node, @complex_node_2)
-    assert_equal(@time_node.data(), @time_node_2.data())
-    refute(@time_node.eql?(@time_node_2))
-    assert_equal(@time_node, @time_node_2)
-    assert_equal(@symbol_node.data(), @symbol_node_2.data())
-    refute(@symbol_node.eql?(@symbol_node_2))
-    assert_equal(@symbol_node, @symbol_node_2)
-
-  end
-
-  # test_assign_node().
-  # @abstract: assign_node(node) deeply copies atomic type nodes.
-  def test_assign_node()
-
-    # @fixnum_node_2  = Node.new(@fixnum)
-    @node.assign_node(@node_2)
-    @float_node.assign_node(@float_node_2)
-    @complex_node.assign_node(@complex_node_2)
-    @time_node.assign_node(@time_node_2)
-    @symbol_node.assign_node(@symbol_node_2)
-    # @fixnum_node.assign_node(@fixnum_node_2)
-    assert_equal(@node.data(), @node_2.data())
     refute(@node.eql?(@node_2))
-    assert_equal(@float_node.data(), @float_node_2.data())
+    assert_equal(@float_node, @float_node_2)
     refute(@float_node.eql?(@float_node_2))
-    assert_equal(@complex_node.data(), @complex_node_2.data())
     refute(@complex_node.eql?(@complex_node_2))
     assert_equal(@complex_node, @complex_node_2)
-    assert_equal(@time_node.data(), @time_node_2.data())
     refute(@time_node.eql?(@time_node_2))
     assert_equal(@time_node, @time_node_2)
-    assert_equal(@symbol_node.data(), @symbol_node_2.data())
     refute(@symbol_node.eql?(@symbol_node_2))
     assert_equal(@symbol_node, @symbol_node_2)
-    assert(@symbol_node.data().eql?(@symbol_node_2.data()))
 
   end
 
