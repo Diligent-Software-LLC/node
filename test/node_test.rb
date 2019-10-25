@@ -79,4 +79,14 @@ class NodeTest < Minitest::Test
 
   end
 
+  # test_unacceptable_data_types().
+  # @abstract: a Range data type is unacceptable.
+  def test_unacceptable_data_types()
+
+    assert_raises(ArgumentError) {
+      Node.new((0..2))
+    }
+
+  end
+
 end

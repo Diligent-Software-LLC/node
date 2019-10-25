@@ -21,19 +21,23 @@ class Node
   end
 
   # ==(node).
-  # @abstract: equality operator. Compares the node's data attribute, and in the case the attribute values are equal, returns true.
+  # @abstract: equality operator. Compares the node's data attribute, and in
+  # the case the attribute values are equal, returns true.
   # @param node: a Node object.
   # @return: if equal, true. Otherwise, false.
   def ==(node)
+
     if (verify_node_object(node))
       return node.data().eql?(data())
     end
+
   end
 
   # deeply_dup().
   # @abstract: deeply copies self.
   # @return: self's deep copy.
   def deeply_dup()
+
     case (data().class)
     when String, Time, Bignum
       data_temp = data().dup()
@@ -43,6 +47,7 @@ class Node
       data_temp = nil
     end
     return Node.new(data_temp)
+
   end
 
   private
@@ -50,9 +55,11 @@ class Node
   # data=(object).
   # @abstract: setter method. Sets the node's data attribute.
   def data=(object)
+
     if (verify_data_type(object))
       return @data = object
     end
+
   end
 
 end
