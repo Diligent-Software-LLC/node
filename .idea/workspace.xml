@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="031bb61f-fc84-4040-a166-5e855cb51718" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_helper.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571704306418</updated>
       <workItem from="1571704308726" duration="11492000" />
-      <workItem from="1572019726956" duration="9712000" />
+      <workItem from="1572019726956" duration="9960000" />
     </task>
     <task id="LOCAL-00001" summary="initialize repository.">
       <created>1571706603792</created>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572022769858</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Wrote README.">
+      <created>1572058164497</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1572058164497</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +259,8 @@
     <MESSAGE value="fixed gemspec." />
     <MESSAGE value="edited tests." />
     <MESSAGE value="Fixed bugs and all tests pass." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs and all tests pass." />
+    <MESSAGE value="Wrote README." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote README." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

@@ -2,13 +2,13 @@ require "node/version"
 require 'node_helper'
 
 # Node.
-# @abstract: Defines and implements a node class.
+# @abstract: Defines and implements a node abstract data structure class.
 class Node
 
   include NodeHelper
 
   # initialize(data).
-  # @abstract: the alternative constructor.
+  # @abstract: the constructor.
   # @attribute data: the node's data.
   def initialize(data = nil)
     self.data = data
@@ -22,7 +22,8 @@ class Node
 
   # ==(node).
   # @abstract: equality operator. Compares the node's data attribute, and in
-  # the case the attribute values are equal, returns true.
+  # the case self's attribute and node's attribute refer the same object,
+  # returns true.
   # @param node: a Node object.
   # @return: if equal, true. Otherwise, false.
   def ==(node)
