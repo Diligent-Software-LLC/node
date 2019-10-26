@@ -1,4 +1,4 @@
-# Node ![Gem](https://img.shields.io/gem/dt/node)
+# Node ![Gem](https://img.shields.io/gem/dt/node) [![Gem Version](https://badge.fury.io/rb/node.svg)](https://badge.fury.io/rb/node)
 
 Defines and implements a `Node` abstract data structure class. There is a 
 `Node` class and a `Node` helper module. There are seven total methods. Four 
