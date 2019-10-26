@@ -3,15 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="031bb61f-fc84-4040-a166-5e855cb51718" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571704306418</updated>
       <workItem from="1571704308726" duration="11492000" />
-      <workItem from="1572019726956" duration="2914000" />
+      <workItem from="1572019726956" duration="9712000" />
     </task>
     <task id="LOCAL-00001" summary="initialize repository.">
       <created>1571706603792</created>
@@ -194,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572020257861</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed bugs and all tests pass.">
+      <created>1572022704218</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1572022704218</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixed bugs and all tests pass.">
+      <created>1572022769858</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1572022769858</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +251,8 @@
     <MESSAGE value="fixed methods." />
     <MESSAGE value="fixed gemspec." />
     <MESSAGE value="edited tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="edited tests." />
+    <MESSAGE value="Fixed bugs and all tests pass." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs and all tests pass." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

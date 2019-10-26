@@ -8,9 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors = ["Bradley"]
   spec.email   = ["bradleytannor@gmail.com"]
 
-  spec.summary     = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage    = "TODO: Put your gem's website or public repo URL here."
+  spec.summary     = %q{Defines and implements a `Node` abstract data structure class.}
+  spec.description = %q{Defines and implements a `Node` abstract data structure class. There is a
+`Node` class and a `Node` helper module. There are seven total methods. Four methods are
+ public `Node` methods, one private `Node` method, and two helper methods. `Node`
+objects' sole attribute is a `data` object. The acceptable `data` objects are
+`String`, `Fixnum`, `Float`, `Commplex`, `Time`, `Symbol`, `Bignum`, and `NilClass` objects.}
+  spec.homepage    = "https://www.github.com/scientist8202/node"
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
