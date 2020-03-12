@@ -41,17 +41,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/node.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_test.rb" afterDir="false" />
-    </list>
+    <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584017696265</updated>
-      <workItem from="1584017699640" duration="6282000" />
+      <workItem from="1584017699640" duration="6597000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Local Repository.&#10;&#10;The Node library directory was generated.">
       <created>1584021729760</created>
@@ -138,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584021729760</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed Setup Tasks&#10;&#10;Regenerated files. Rewrote README.md and the gem specification. Bug fixes in the /lib directory, the configuration files, and the documentation files.">
+      <created>1584026087785</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584026087785</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="Board Node: 0.1.0 State: Development " />
@@ -151,7 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialized Local Repository.&#10;&#10;The Node library directory was generated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialized Local Repository.&#10;&#10;The Node library directory was generated." />
+    <MESSAGE value="Completed Setup Tasks&#10;&#10;Regenerated files. Rewrote README.md and the gem specification. Bug fixes in the /lib directory, the configuration files, and the documentation files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Setup Tasks&#10;&#10;Regenerated files. Rewrote README.md and the gem specification. Bug fixes in the /lib directory, the configuration files, and the documentation files." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -163,10 +161,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1584022171493" />
-    <state x="418" y="112" key="CommitChangelistDialog2" timestamp="1584021729291">
+    <state x="418" y="112" key="CommitChangelistDialog2" timestamp="1584026087544">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="418" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584021729291" />
+    <state x="418" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584026087544" />
     <state width="1578" height="271" key="GridCell.Tab.0.bottom" timestamp="1584025872083">
       <screen x="0" y="23" width="1680" height="975" />
     </state>

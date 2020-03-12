@@ -1,22 +1,35 @@
 PATH
   remote: .
   specs:
-    node (1.0.0)
+    node (0.1.0)
+      node_impl (~> 0.1.0)
+      node_int (~> 0.1.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    minitest (5.11.3)
-    rake (10.4.2)
+    docile (1.3.2)
+    json (2.3.0)
+    minitest (5.14.0)
+    node_impl (0.1.0)
+      node_int (~> 0.1.0)
+    node_int (0.1.1)
+    rake (13.0.1)
+    simplecov (0.17.1)
+      docile (~> 1.1)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.17)
+  bundler (~> 2.1.2)
   minitest (~> 5.0)
   node!
-  rake (~> 10.0)
+  rake (~> 13.0)
+  simplecov (~> 0.17.1)
 
 BUNDLED WITH
-   1.17.3
+   2.1.2
