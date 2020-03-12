@@ -42,7 +42,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/node_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="prepare-deployment" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -140,10 +144,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584026087785</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Deleted Merged File&#10;&#10;Deleted node_helper.rb.">
+      <created>1584041253717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584041253717</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="Board Node: 0.1.0 State: Development " />
+        <option name="defaultSearch" value="Board Node: 0.1.0 State:{ Deploy Preparation} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -154,7 +165,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialized Local Repository.&#10;&#10;The Node library directory was generated." />
     <MESSAGE value="Completed Setup Tasks&#10;&#10;Regenerated files. Rewrote README.md and the gem specification. Bug fixes in the /lib directory, the configuration files, and the documentation files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Setup Tasks&#10;&#10;Regenerated files. Rewrote README.md and the gem specification. Bug fixes in the /lib directory, the configuration files, and the documentation files." />
+    <MESSAGE value="Deleted Merged File&#10;&#10;Deleted node_helper.rb." />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted Merged File&#10;&#10;Deleted node_helper.rb." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -166,10 +178,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1584022171493" />
-    <state x="222" y="112" key="CommitChangelistDialog2" timestamp="1584030779139">
+    <state x="222" y="112" key="CommitChangelistDialog2" timestamp="1584041253508">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="222" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584030779139" />
+    <state x="222" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584041253508" />
     <state width="1578" height="271" key="GridCell.Tab.0.bottom" timestamp="1584030741074">
       <screen x="0" y="23" width="1680" height="975" />
     </state>

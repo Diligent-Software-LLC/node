@@ -4,12 +4,15 @@ A doubly-linked Node abstract data structure library.
 
 ## Installation
 
-- Refer the package's [installation](https://docs.diligentsoftware.org/$GROUP_SLUG/packages) page.
-- All versions <= 2.0.0 are unstable or incomplete.
+- Refer the package's [installation](https://docs.diligentsoftware.org/node/packages) page.
+- All versions < 2.0.0 are unstable or incomplete.
 
 ## Documentation
 
-Refer the package's [documentation](https://docs.diligentsoftware.org/$GROUP_SLUG/$SEEORPEE/documentation) page.
+- Refer the interface [page](https://docs.diligentsoftware.org/node/interface).
+The interface declares the constants and method signatures.
+- Refer the implementation [page](https://docs.diligentsoftware.org/node/implementation). 
+The implementation implements the interface.
 
 ## Contributing
 
@@ -30,4 +33,4 @@ Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/node/i
 
 ### Improve Functionality
 
-Refer the [Improvements Procedure](https://github.com/Diligent-Software-LLC/node/issues/$IMP_ISSUE).
+Refer the [Improvements Procedure](https://github.com/Diligent-Software-LLC/node/issues/5).
