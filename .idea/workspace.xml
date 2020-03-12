@@ -42,24 +42,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/node.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/node.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/node/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/node_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/node.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/node_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +58,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Z1ryfap6WHtJQT22OeB3kLcpAI" />
@@ -84,7 +80,43 @@
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunManager">
+    <configuration name="NodeTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="node" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/node_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.NodeTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -97,11 +129,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584017696265</updated>
-      <workItem from="1584017699640" duration="2108000" />
+      <workItem from="1584017699640" duration="6282000" />
     </task>
+    <task id="LOCAL-00001" summary="Initialized Local Repository.&#10;&#10;The Node library directory was generated.">
+      <created>1584021729760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584021729760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="Board Node: 0.1.0" />
+        <option name="defaultSearch" value="Board Node: 0.1.0 State: Development " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -109,30 +149,62 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialized Local Repository.&#10;&#10;The Node library directory was generated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialized Local Repository.&#10;&#10;The Node library directory was generated." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="424" y="175" key="#Servers" timestamp="1584018276533">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="424" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1584018276533" />
-    <state width="1413" height="272" key="GridCell.Tab.0.bottom" timestamp="1584017713141">
+    <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog" timestamp="1584022171493">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="272" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584017713141" />
-    <state width="1413" height="272" key="GridCell.Tab.0.center" timestamp="1584017713140">
+    <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1584022171493" />
+    <state x="418" y="112" key="CommitChangelistDialog2" timestamp="1584021729291">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="272" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584017713140" />
-    <state width="1413" height="272" key="GridCell.Tab.0.left" timestamp="1584017713139">
+    <state x="418" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584021729291" />
+    <state width="1578" height="271" key="GridCell.Tab.0.bottom" timestamp="1584025872083">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="272" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584017713139" />
-    <state width="1413" height="272" key="GridCell.Tab.0.right" timestamp="1584017713140">
+    <state width="1578" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584025872083" />
+    <state width="1578" height="271" key="GridCell.Tab.0.center" timestamp="1584025872082">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="272" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584017713140" />
-    <state x="333" y="149" key="SettingsEditor" timestamp="1584018808288">
+    <state width="1578" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584025872082" />
+    <state width="1578" height="271" key="GridCell.Tab.0.left" timestamp="1584025872082">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="333" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1584018808288" />
+    <state width="1578" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584025872082" />
+    <state width="1578" height="271" key="GridCell.Tab.0.right" timestamp="1584025872083">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1578" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584025872083" />
+    <state x="473" y="98" key="SettingsEditor" timestamp="1584025305289">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="473" y="98" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1584025305289" />
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1584025936709">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584025936709" />
+    <state x="416" y="235" width="816" height="550" key="find.popup" timestamp="1584022711343">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="416" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1584022711343" />
+    <state x="489" y="235" width="670" height="675" key="run.anything.popup" timestamp="1584021803284">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1584021803284" />
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1584023314778">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1584023314778" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/node@NodeTest.rcov" NAME="NodeTest Coverage Results" MODIFIED="1584025857754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node" />
   </component>
 </project>

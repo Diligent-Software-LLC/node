@@ -1,36 +1,33 @@
-# Node
+# node [![Gem Version](https://badge.fury.io/rb/node.svg)](https://badge.fury.io/rb/node) ![Gem](https://img.shields.io/gem/dt/node) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/node.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/node)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/node`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A doubly-linked Node abstract data structure library.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+- Refer the package's [installation](https://docs.diligentsoftware.org/$GROUP_SLUG/packages) page.
+- All versions <= 2.0.0 are unstable or incomplete.
 
-```ruby
-gem 'node'
-```
+## Documentation
 
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install node
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Refer the package's [documentation](https://docs.diligentsoftware.org/$GROUP_SLUG/$SEEORPEE/documentation) page.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/node.
+### Donate
 
+Donations support continuous improvement and maintenance. The aim is a
+reliable, integrable, Node library. Make a donation at the project's
+collective page: https://opencollective.com/node. One-time and recurring 
+donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.
+
+### Report Bugs
+
+Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/node/issues/3).
+
+### Fix Bugs
+
+Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/node/issues/4).
+
+### Improve Functionality
+
+Refer the [Improvements Procedure](https://github.com/Diligent-Software-LLC/node/issues/$IMP_ISSUE).
