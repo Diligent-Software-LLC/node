@@ -6,5 +6,5 @@
 # A doubly-linked Node class. The interface contains the method signatures
 # and the constants. The implementation contains the method implementations.
 module NodeLibrary
-  VERSION = ::VERSION
+  VERSION = '2.0.1'.freeze()
 end
