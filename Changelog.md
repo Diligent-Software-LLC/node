@@ -22,4 +22,14 @@
 ### Fixed
 
 - Version 2.0.0 was defined in the gem specification file. The version is in
- the version.rb file. 
+ the version.rb file.
+
+## 2.0.2, 2020-03-24
+
+### Added
+
+### Edited
+
+### Fixed
+
+- node_impl pessimistic version was invalid. 

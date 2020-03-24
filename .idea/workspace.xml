@@ -41,9 +41,8 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="Fixed Load Bug&#10;&#10;Version was defined in the gem specification file. Accessing the version outside the package is impossible.">
+    <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,7 @@
       <updated>1584017696265</updated>
       <workItem from="1584017699640" duration="6597000" />
       <workItem from="1584026245871" duration="691000" />
-      <workItem from="1585067870045" duration="811000" />
+      <workItem from="1585067870045" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Local Repository.&#10;&#10;The Node library directory was generated.">
       <created>1584021729760</created>
@@ -183,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585068437931</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated Changelog&#10;&#10;Logged the version location change.">
+      <created>1585068747686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585068747686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="Board Node: 0.1.0 State:{ Deploy Preparation} " />
@@ -213,7 +219,8 @@
     <MESSAGE value="Deleted Merged File&#10;&#10;Deleted node_helper.rb." />
     <MESSAGE value="Fixed README.md and Changelog.md&#10;&#10;The rebase removed some changes in the two files. Rewrote them." />
     <MESSAGE value="Fixed Load Bug&#10;&#10;Version was defined in the gem specification file. Accessing the version outside the package is impossible." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Load Bug&#10;&#10;Version was defined in the gem specification file. Accessing the version outside the package is impossible." />
+    <MESSAGE value="Updated Changelog&#10;&#10;Logged the version location change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Changelog&#10;&#10;Logged the version location change." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -225,34 +232,34 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1584022171493" />
-    <state x="222" y="112" key="CommitChangelistDialog2" timestamp="1585068444598">
+    <state x="222" y="112" key="CommitChangelistDialog2" timestamp="1585068747459">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="222" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585068444598" />
-    <state width="1578" height="271" key="GridCell.Tab.0.bottom" timestamp="1585068364268">
+    <state x="222" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585068747459" />
+    <state width="1578" height="271" key="GridCell.Tab.0.bottom" timestamp="1585080347135">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585068364268" />
-    <state width="1578" height="271" key="GridCell.Tab.0.center" timestamp="1585068364267">
+    <state width="1578" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585080347135" />
+    <state width="1578" height="271" key="GridCell.Tab.0.center" timestamp="1585080347134">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585068364267" />
-    <state width="1578" height="271" key="GridCell.Tab.0.left" timestamp="1585068364266">
+    <state width="1578" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585080347134" />
+    <state width="1578" height="271" key="GridCell.Tab.0.left" timestamp="1585080347134">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585068364266" />
-    <state width="1578" height="271" key="GridCell.Tab.0.right" timestamp="1585068364267">
+    <state width="1578" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585080347134" />
+    <state width="1578" height="271" key="GridCell.Tab.0.right" timestamp="1585080347135">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585068364267" />
+    <state width="1578" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585080347135" />
     <state x="473" y="98" key="SettingsEditor" timestamp="1584025305289">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="473" y="98" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1584025305289" />
-    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585068449069">
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585068776486">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585068449069" />
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585068776486" />
     <state x="416" y="235" width="816" height="550" key="find.popup" timestamp="1584022711343">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -267,6 +274,6 @@
     <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1584023314778" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/node@NodeTest.rcov" NAME="NodeTest Coverage Results" MODIFIED="1585068360352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node" />
+    <SUITE FILE_PATH="coverage/node@NodeTest.rcov" NAME="NodeTest Coverage Results" MODIFIED="1585080449805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node" />
   </component>
 </project>

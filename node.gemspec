@@ -38,7 +38,7 @@ Greatly appreciated.}
 
   # Gem specific runtime dependencies
   spec.add_runtime_dependency 'node_int', '~> 0.1.1'
-  spec.add_runtime_dependency 'node_impl', '~> 0.1.0'
+  spec.add_runtime_dependency 'node_impl', '~> 1.0.0'
 
 end
 
