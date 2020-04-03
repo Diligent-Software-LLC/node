@@ -43,6 +43,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +150,8 @@
       <workItem from="1584017699640" duration="6597000" />
       <workItem from="1584026245871" duration="691000" />
       <workItem from="1585067870045" duration="1010000" />
+      <workItem from="1585080267128" duration="474000" />
+      <workItem from="1585933123589" duration="814000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Local Repository.&#10;&#10;The Node library directory was generated.">
       <created>1584021729760</created>
@@ -189,10 +195,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585068747686</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed Dependency&#10;&#10;node_impl version was invalid. A major release, 1.0.0, invalidated the pessimistic versioning.">
+      <created>1585080528506</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585080528507</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="Board Node: 0.1.0 State:{ Deploy Preparation} " />
+        <option name="defaultSearch" value="project: Node Subsystem: Library Sprints: 2 #Setup " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -220,7 +233,8 @@
     <MESSAGE value="Fixed README.md and Changelog.md&#10;&#10;The rebase removed some changes in the two files. Rewrote them." />
     <MESSAGE value="Fixed Load Bug&#10;&#10;Version was defined in the gem specification file. Accessing the version outside the package is impossible." />
     <MESSAGE value="Updated Changelog&#10;&#10;Logged the version location change." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Changelog&#10;&#10;Logged the version location change." />
+    <MESSAGE value="Fixed Dependency&#10;&#10;node_impl version was invalid. A major release, 1.0.0, invalidated the pessimistic versioning." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Dependency&#10;&#10;node_impl version was invalid. A major release, 1.0.0, invalidated the pessimistic versioning." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -232,34 +246,34 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1584022171493" />
-    <state x="222" y="112" key="CommitChangelistDialog2" timestamp="1585068747459">
+    <state x="222" y="112" key="CommitChangelistDialog2" timestamp="1585080528229">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="222" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585068747459" />
-    <state width="1578" height="271" key="GridCell.Tab.0.bottom" timestamp="1585080347135">
+    <state x="222" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585080528229" />
+    <state width="1578" height="271" key="GridCell.Tab.0.bottom" timestamp="1585080715628">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585080347135" />
-    <state width="1578" height="271" key="GridCell.Tab.0.center" timestamp="1585080347134">
+    <state width="1578" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585080715628" />
+    <state width="1578" height="271" key="GridCell.Tab.0.center" timestamp="1585080715627">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585080347134" />
-    <state width="1578" height="271" key="GridCell.Tab.0.left" timestamp="1585080347134">
+    <state width="1578" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585080715627" />
+    <state width="1578" height="271" key="GridCell.Tab.0.left" timestamp="1585080715626">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585080347134" />
-    <state width="1578" height="271" key="GridCell.Tab.0.right" timestamp="1585080347135">
+    <state width="1578" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585080715626" />
+    <state width="1578" height="271" key="GridCell.Tab.0.right" timestamp="1585080715628">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585080347135" />
+    <state width="1578" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585080715628" />
     <state x="473" y="98" key="SettingsEditor" timestamp="1584025305289">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="473" y="98" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1584025305289" />
-    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585068776486">
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585080660880">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585068776486" />
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585080660880" />
     <state x="416" y="235" width="816" height="550" key="find.popup" timestamp="1584022711343">
       <screen x="0" y="23" width="1680" height="975" />
     </state>

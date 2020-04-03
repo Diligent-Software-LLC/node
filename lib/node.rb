@@ -1,13 +1,13 @@
 # Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
-# under the MIT License.
+# under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "node/version"
 require 'node_impl'
 
 # Node.
-# @abstract
-# A doubly-linked Node class. The interface contains the method signatures
-# and the constants. The implementation contains the method implementations.
-module NodeLibrary
+# @class_description
+#   A doubly-linked Node data structure library. The Type and Error components
+#   consist the library.
+class NodeLibrary
 end
 

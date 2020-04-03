@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    node (2.0.2)
+    node (2.1.0)
       node_impl (~> 1.0.0)
-      node_int (~> 0.1.1)
+      node_int (~> 0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -25,11 +25,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 2.1.2)
+  bundler (~> 2.1.0)
   minitest (~> 5.0)
   node!
+  node_impl (~> 1.0.0)
+  node_int (~> 0.1.0)
   rake (~> 13.0)
-  simplecov (~> 0.17.1)
+  simplecov (~> 0.17.0)
 
 BUNDLED WITH
    2.1.2

@@ -1,10 +1,10 @@
-# Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released under
-# the MIT License.
+# Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
+# under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 # Node.
-# @abstract
-# A doubly-linked Node class. The interface contains the method signatures
-# and the constants. The implementation contains the method implementations.
-module NodeLibrary
-  VERSION = '2.0.2'.freeze()
+# @class_description
+#   A doubly-linked Node data structure library. The Type and Error components
+#   consist the library.
+class NodeLibrary
+  VERSION = '2.1.0'.freeze()
 end
