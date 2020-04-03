@@ -42,18 +42,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="308" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -153,7 +155,7 @@
       <workItem from="1584026245871" duration="691000" />
       <workItem from="1585067870045" duration="1010000" />
       <workItem from="1585080267128" duration="474000" />
-      <workItem from="1585933123589" duration="2289000" />
+      <workItem from="1585933123589" duration="3121000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Local Repository.&#10;&#10;The Node library directory was generated.">
       <created>1584021729760</created>
@@ -211,10 +213,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585934331516</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Development Complete&#10;&#10;Fixed 'require' statements. Rewrote node_test.rb. Added the GNU General Public License, Version 3. Rewrote README.md. Added a .yardopts file.">
+      <created>1585935740428</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585935740428</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem: Library Sprints: 2 #Development " />
+        <option name="defaultSearch" value="project: Node Subsystem: Library Sprints: 2 #{Deploy Preparation} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -244,7 +253,8 @@
     <MESSAGE value="Updated Changelog&#10;&#10;Logged the version location change." />
     <MESSAGE value="Fixed Dependency&#10;&#10;node_impl version was invalid. A major release, 1.0.0, invalidated the pessimistic versioning." />
     <MESSAGE value="Setup Complete&#10;&#10;Updated copyright statements. Fixed YARD. Fixed class definitions. Rewrote Gem Specification file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Updated copyright statements. Fixed YARD. Fixed class definitions. Rewrote Gem Specification file." />
+    <MESSAGE value="Development Complete&#10;&#10;Fixed 'require' statements. Rewrote node_test.rb. Added the GNU General Public License, Version 3. Rewrote README.md. Added a .yardopts file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Fixed 'require' statements. Rewrote node_test.rb. Added the GNU General Public License, Version 3. Rewrote README.md. Added a .yardopts file." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -256,10 +266,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1584022171493" />
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1585934331155">
+    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1585935740159">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585934331155" />
+    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585935740159" />
     <state width="1534" height="271" key="GridCell.Tab.0.bottom" timestamp="1585935517366">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
