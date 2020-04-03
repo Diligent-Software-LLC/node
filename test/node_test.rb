@@ -1,61 +1,43 @@
-require 'test_helper'
+require_relative 'test_helper'
 
 # NodeTest.
-# @abstract
-# Tests the Node class.
+# @class_description
+#   Tests the NodeLibrary class.
 class NodeTest < Minitest::Test
 
-  # test_version_declared().
-  # @abstract
-  # The version was declared.
-  def test_version_declared()
-    refute_nil(::Node::VERSION)
-  end
+  CLASS = NodeLibrary
 
-  # test_travis_c_ex().
-  # @abstract
-  # The travis configuration file exists.
-  def test_travis_c_ex()
+  # test_conf_doc_f_ex().
+  # @description
+  #  The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, .yardopts, and
+  #  README.md files exist.
+  def test_conf_doc_f_ex()
+
     assert_path_exists('.travis.yml')
-  end
-
-  # test_COC_exists().
-  # @abstract
-  # A Code of Conduct exists.
-  def test_COC_exists()
     assert_path_exists('CODE_OF_CONDUCT.md')
-  end
-
-  # test_gemfile_exists().
-  # @abstract
-  # The Gemfile exists.
-  def test_gemfile_exists()
     assert_path_exists('Gemfile')
-  end
-
-  # test_license_exists().
-  # @abstract
-  # The license exists.
-  def test_license_exists()
     assert_path_exists('LICENSE.txt')
+    assert_path_exists('README.md')
+    assert_path_exists('.yardopts')
+
   end
 
-  # test_readme_exists().
-  # @abstract
-  # The README.md file exists.
-  def test_readme_exists()
-    assert_path_exists('README.md')
+  # test_version_declared().
+  # @description
+  #   The version was declared.
+  def test_version_declared()
+    refute_nil(CLASS::VERSION)
   end
 
   # setup().
-  # @abstract
-  # Set fixtures.
+  # @description
+  #   Set fixtures.
   def setup()
   end
 
   # teardown().
-  # @abstract
-  # Cleanup.
+  # @description
+  #  Cleanup.
   def teardown()
   end
 
