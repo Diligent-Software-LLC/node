@@ -23,7 +23,7 @@ appreciated.}
   spec.metadata['source_code_uri'] =
       "https://github.com/Diligent-Software-LLC/node"
   spec.metadata['changelog_uri']   =
-      "https://docs.diligentsoftware.org/node#changelog"
+      "https://docs.diligentsoftware.org/node-1/packages#library_changelog"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added
@@ -42,9 +42,11 @@ appreciated.}
   spec.add_development_dependency 'simplecov', '~> 0.17.0'
   spec.add_development_dependency 'node_int', '~> 0.1.0'
   spec.add_development_dependency 'node_impl', '~> 1.0.0'
+  spec.add_development_dependency 'node_error', '~> 2.0.0'
 
   # Gem specific runtime dependencies
   spec.add_runtime_dependency 'node_int', '~> 0.1.0'
   spec.add_runtime_dependency 'node_impl', '~> 1.0.0'
+  spec.add_runtime_dependency 'node_error', '~> 2.0.0'
 
 end

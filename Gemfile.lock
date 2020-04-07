@@ -1,16 +1,25 @@
 PATH
   remote: .
   specs:
-    node (2.1.0)
+    node (2.2.0)
+      node_error (~> 2.0.0)
       node_impl (~> 1.0.0)
       node_int (~> 0.1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    data_structure_error (1.2.1)
     docile (1.3.2)
     json (2.3.0)
     minitest (5.14.0)
+    node_error (2.0.0)
+      node_error_impl (~> 0.1.0)
+      node_error_int (~> 0.1.0)
+    node_error_impl (0.1.0)
+      node_error_int (~> 0.1.0)
+    node_error_int (0.1.0)
+      data_structure_error (~> 1.2.0)
     node_impl (1.0.0)
       node_int (~> 0.1.0)
     node_int (0.1.3)
@@ -28,6 +37,7 @@ DEPENDENCIES
   bundler (~> 2.1.0)
   minitest (~> 5.0)
   node!
+  node_error (~> 2.0.0)
   node_impl (~> 1.0.0)
   node_int (~> 0.1.0)
   rake (~> 13.0)

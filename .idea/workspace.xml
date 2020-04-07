@@ -42,8 +42,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/node.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +91,7 @@
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -155,7 +159,8 @@
       <workItem from="1584026245871" duration="691000" />
       <workItem from="1585067870045" duration="1010000" />
       <workItem from="1585080267128" duration="474000" />
-      <workItem from="1585933123589" duration="3121000" />
+      <workItem from="1585933123589" duration="5819000" />
+      <workItem from="1586300593059" duration="893000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Local Repository.&#10;&#10;The Node library directory was generated.">
       <created>1584021729760</created>
@@ -220,10 +225,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585935740428</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Deploy Preparation&#10;&#10;Changelog.md updated.">
+      <created>1585941422505</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585941422505</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem: Library Sprints: 2 #{Deploy Preparation} " />
+        <option name="defaultSearch" value="project: Node Subsystem: Library Sprints: 3 #Setup " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -254,7 +266,8 @@
     <MESSAGE value="Fixed Dependency&#10;&#10;node_impl version was invalid. A major release, 1.0.0, invalidated the pessimistic versioning." />
     <MESSAGE value="Setup Complete&#10;&#10;Updated copyright statements. Fixed YARD. Fixed class definitions. Rewrote Gem Specification file." />
     <MESSAGE value="Development Complete&#10;&#10;Fixed 'require' statements. Rewrote node_test.rb. Added the GNU General Public License, Version 3. Rewrote README.md. Added a .yardopts file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Fixed 'require' statements. Rewrote node_test.rb. Added the GNU General Public License, Version 3. Rewrote README.md. Added a .yardopts file." />
+    <MESSAGE value="Deploy Preparation&#10;&#10;Changelog.md updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy Preparation&#10;&#10;Changelog.md updated." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -262,38 +275,38 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="424" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1584018276533" />
-    <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog" timestamp="1584022171493">
+    <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog" timestamp="1585945083766">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1584022171493" />
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1585935740159">
+    <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1585945083766" />
+    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1585941422206">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585935740159" />
-    <state width="1534" height="271" key="GridCell.Tab.0.bottom" timestamp="1585935517366">
+    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585941422206" />
+    <state width="1534" height="271" key="GridCell.Tab.0.bottom" timestamp="1586302919174">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1534" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585935517366" />
-    <state width="1534" height="271" key="GridCell.Tab.0.center" timestamp="1585935517366">
+    <state width="1534" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586302919174" />
+    <state width="1534" height="271" key="GridCell.Tab.0.center" timestamp="1586302919173">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1534" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585935517366" />
-    <state width="1534" height="271" key="GridCell.Tab.0.left" timestamp="1585935517365">
+    <state width="1534" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586302919173" />
+    <state width="1534" height="271" key="GridCell.Tab.0.left" timestamp="1586302919172">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1534" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585935517365" />
-    <state width="1534" height="271" key="GridCell.Tab.0.right" timestamp="1585935517366">
+    <state width="1534" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586302919172" />
+    <state width="1534" height="271" key="GridCell.Tab.0.right" timestamp="1586302919174">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1534" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585935517366" />
-    <state x="473" y="98" key="SettingsEditor" timestamp="1584025305289">
+    <state width="1534" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586302919174" />
+    <state x="473" y="98" key="SettingsEditor" timestamp="1585945086401">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="473" y="98" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1584025305289" />
-    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585080660880">
+    <state x="473" y="98" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1585945086401" />
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585942766684">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585080660880" />
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585942766684" />
     <state x="632" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585934896837">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
