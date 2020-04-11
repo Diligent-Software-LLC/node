@@ -10,4 +10,3 @@ require 'node_impl'
 #   consist the library.
 class NodeLibrary
 end
-

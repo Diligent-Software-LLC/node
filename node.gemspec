@@ -40,13 +40,9 @@ appreciated.}
   # Development and testing dependencies
   spec.add_development_dependency 'bundler', '~> 2.1.0'
   spec.add_development_dependency 'simplecov', '~> 0.17.0'
-  spec.add_development_dependency 'node_int', '~> 0.1.0'
-  spec.add_development_dependency 'node_impl', '~> 1.0.0'
-  spec.add_development_dependency 'node_error', '~> 2.0.0'
+  spec.add_development_dependency 'node_impl', '~> 2.0.0'
 
   # Gem specific runtime dependencies
-  spec.add_runtime_dependency 'node_int', '~> 0.1.0'
-  spec.add_runtime_dependency 'node_impl', '~> 1.0.0'
-  spec.add_runtime_dependency 'node_error', '~> 2.0.0'
+  spec.add_runtime_dependency 'node_impl', '~> 2.0.0'
 
 end
