@@ -5,12 +5,13 @@ A doubly-linked Node data structure library. The Type and Error components
 
 ## Installation
 
-- Refer the Node homepage's 
-[packages](https://docs.diligentsoftware.org/node/packages) section.
+- Refer the Library Packages 
+[Installation](https://docs.diligentsoftware.org/node-1/packages#library_installation) 
+section.
 
 ## Documentation
 
-- Refer the [Library](https://docs.diligentsoftware.org/node) homepage.
+- Refer the Library's [homepage](https://docs.diligentsoftware.org/node).
 
 ## Contributing
 

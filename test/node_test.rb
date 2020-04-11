@@ -39,10 +39,12 @@ class NodeTest < Minitest::Test
   # @description
   #   Arguing invalid data during initialization raises a NodeError.
   def test_invalid_data_raises()
+
     invalid = {}
-    assert_raises(ArgumentError) {
+    assert_raises(DataError) {
       Node.new(nil, invalid, nil)
     }
+
   end
 
   # teardown().
