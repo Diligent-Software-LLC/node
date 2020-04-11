@@ -41,12 +41,8 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="Setup Complete&#10;&#10;Updated dependencies.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_test.rb" afterDir="false" />
+    <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="308" />
+    <option name="myElementSize" value="360" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -160,7 +156,7 @@
       <workItem from="1585080267128" duration="474000" />
       <workItem from="1585933123589" duration="5819000" />
       <workItem from="1586300593059" duration="2392000" />
-      <workItem from="1586622039930" duration="1192000" />
+      <workItem from="1586622039930" duration="1649000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Local Repository.&#10;&#10;The Node library directory was generated.">
       <created>1584021729760</created>
@@ -246,10 +242,17 @@
       <option name="project" value="LOCAL" />
       <updated>1586622938837</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Development Complete&#10;&#10;Fixed bug in console. Fixed assertion bug. Fixed README.md's Installation and Documentation links.">
+      <created>1586623511150</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586623511150</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem } Component: Library Sprints: 3 #Development " />
+        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem } Component: Library Sprints: 3 #{Prepare Deployment} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -283,7 +286,8 @@
     <MESSAGE value="Deploy Preparation&#10;&#10;Changelog.md updated." />
     <MESSAGE value="Setup Complete&#10;&#10;Updated the Changelog's URI. Added a development and runtime dependency." />
     <MESSAGE value="Setup Complete&#10;&#10;Updated dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Updated dependencies." />
+    <MESSAGE value="Development Complete&#10;&#10;Fixed bug in console. Fixed assertion bug. Fixed README.md's Installation and Documentation links." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Fixed bug in console. Fixed assertion bug. Fixed README.md's Installation and Documentation links." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -295,10 +299,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1585945083766" />
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1586622986685">
+    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1586623510718">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586622986685" />
+    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586623510718" />
     <state width="1526" height="271" key="GridCell.Tab.0.bottom" timestamp="1586623375538">
       <screen x="0" y="23" width="1680" height="975" />
     </state>

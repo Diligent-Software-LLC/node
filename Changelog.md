@@ -1,5 +1,19 @@
 # Changelog
 
+## v3.0.0, 2020-04-11
+
+### Added
+
+- Many dependency bumps.
+
+### Edited
+
+### Fixed
+
+- console.rb 'require' statement.
+- Test assertion bug.
+- README.md's Installation and Documentation links.
+
 ## v2.1.0, 2020-04-03
 
 ### Added
