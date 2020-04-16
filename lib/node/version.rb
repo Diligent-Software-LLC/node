@@ -6,5 +6,5 @@
 #   A doubly-linked Node data structure library. Composes the Data Structure
 #   and the Error components.
 class NodeLibrary
-  VERSION = '3.0.0'.freeze()
+  VERSION = '4.0.0'.freeze()
 end
