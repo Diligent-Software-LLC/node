@@ -1,5 +1,15 @@
 # Changelog
 
+## v4.1.0, 2020-04-16
+
+### Added
+
+### Edited
+
+- Gem Specification. Bumped Implementation dependency.
+
+### Fixed
+
 ## v4.0.0, 2020-04-15
 
 ### Added
