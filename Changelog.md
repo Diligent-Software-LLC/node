@@ -1,5 +1,15 @@
 # Changelog
 
+## v4.0.0, 2020-04-15
+
+### Added
+
+### Edited
+
+- Bumped dependencies.
+
+### Fixed
+
 ## v3.0.0, 2020-04-11
 
 ### Added
