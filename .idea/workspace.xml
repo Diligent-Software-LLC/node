@@ -42,11 +42,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="Prepare Deployment&#10;&#10;Updated Changelog.md.">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +157,7 @@
       <workItem from="1585933123589" duration="5819000" />
       <workItem from="1586300593059" duration="2392000" />
       <workItem from="1586622039930" duration="2516000" />
-      <workItem from="1586998359477" duration="648000" />
+      <workItem from="1586998359477" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Local Repository.&#10;&#10;The Node library directory was generated.">
       <created>1584021729760</created>
@@ -261,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586623732204</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Setup, Development Complete&#10;&#10;Bumped dependencies.">
+      <created>1586999085419</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586999085420</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1586999165008</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1586999165008</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem } Component: Library Sprints: 3 #{Prepare Deployment} " />
@@ -299,6 +309,7 @@
     <MESSAGE value="Setup Complete&#10;&#10;Updated the Changelog's URI. Added a development and runtime dependency." />
     <MESSAGE value="Setup Complete&#10;&#10;Updated dependencies." />
     <MESSAGE value="Development Complete&#10;&#10;Fixed bug in console. Fixed assertion bug. Fixed README.md's Installation and Documentation links." />
+    <MESSAGE value="Setup, Development Complete&#10;&#10;Bumped dependencies." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -312,34 +323,34 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1585945083766" />
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1586999084796">
+    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1586999558304">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586999084796" />
-    <state width="1526" height="271" key="GridCell.Tab.0.bottom" timestamp="1586998971984">
+    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586999558304" />
+    <state width="1526" height="271" key="GridCell.Tab.0.bottom" timestamp="1587075665130">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1526" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586998971984" />
-    <state width="1526" height="271" key="GridCell.Tab.0.center" timestamp="1586998971983">
+    <state width="1526" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587075665130" />
+    <state width="1526" height="271" key="GridCell.Tab.0.center" timestamp="1587075665129">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1526" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586998971983" />
-    <state width="1526" height="271" key="GridCell.Tab.0.left" timestamp="1586998971983">
+    <state width="1526" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587075665129" />
+    <state width="1526" height="271" key="GridCell.Tab.0.left" timestamp="1587075665129">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1526" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586998971983" />
-    <state width="1526" height="271" key="GridCell.Tab.0.right" timestamp="1586998971984">
+    <state width="1526" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587075665129" />
+    <state width="1526" height="271" key="GridCell.Tab.0.right" timestamp="1587075665130">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1526" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586998971984" />
+    <state width="1526" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587075665130" />
     <state x="473" y="98" key="SettingsEditor" timestamp="1585945086401">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="473" y="98" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1585945086401" />
-    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1586624247795">
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1586999479722">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1586624247795" />
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1586999479722" />
     <state x="632" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585934896837">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -352,10 +363,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1584042743864" />
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1586998953770">
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587075623644">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1586998953770" />
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587075623644" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node@NodeTest.rcov" NAME="NodeTest Coverage Results" MODIFIED="1586998958523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node" />
