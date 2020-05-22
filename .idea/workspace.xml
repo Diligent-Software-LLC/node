@@ -41,16 +41,9 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/node.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node.iml" afterDir="false" />
+    <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="Development Complete&#10;&#10;Bumped the Minor Version. Added test coverage. Edited Gem Specification's email, summary, and description. Added node_comp, node_error, and data_library runtime dependencies. Deleted the node_impl dependencies. Rewrote README.md.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +166,7 @@
       <workItem from="1589906256887" duration="760000" />
       <workItem from="1589916842941" duration="533000" />
       <workItem from="1590100776529" duration="270000" />
-      <workItem from="1590161718090" duration="526000" />
+      <workItem from="1590161718090" duration="794000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Local Repository.&#10;&#10;The Node library directory was generated.">
       <created>1584021729760</created>
@@ -315,10 +308,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587172487325</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Development Complete&#10;&#10;Bumped the Minor Version. Added test coverage. Edited Gem Specification's email, summary, and description. Added node_comp, node_error, and data_library runtime dependencies. Deleted the node_impl dependencies. Rewrote README.md.">
+      <created>1590162391114</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590162391114</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem:{No Subsystem} Component: Library Sprints: 9 State: {Development} " />
+        <option name="defaultSearch" value="project: Node Subsystem:{No Subsystem} Component: Library Sprints: 9 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -358,8 +358,8 @@
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Edited Gem Specification. Implementation pessimistic versioning changed. The dependency updates patches and minor releases." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Removed deployment Travis CI settings. Updated Changelog.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Removed deployment Travis CI settings. Updated Changelog.md." />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Development Complete&#10;&#10;Bumped the Minor Version. Added test coverage. Edited Gem Specification's email, summary, and description. Added node_comp, node_error, and data_library runtime dependencies. Deleted the node_impl dependencies. Rewrote README.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Bumped the Minor Version. Added test coverage. Edited Gem Specification's email, summary, and description. Added node_comp, node_error, and data_library runtime dependencies. Deleted the node_impl dependencies. Rewrote README.md." />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="175" key="#Servers" timestamp="1584018276533">
@@ -370,10 +370,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1585945083766" />
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1587172487028">
+    <state x="84" y="48" width="1532" height="908" key="CommitChangelistDialog2" timestamp="1590162427761">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587172487028" />
+    <state x="84" y="48" width="1532" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590162427761" />
     <state width="1526" height="271" key="GridCell.Tab.0.bottom" timestamp="1590162048443">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -410,10 +410,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1584042743864" />
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590162229538">
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590162431479">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590162229538" />
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590162431479" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node@NodeTest.rcov" NAME="NodeTest Coverage Results" MODIFIED="1590162045241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node" />

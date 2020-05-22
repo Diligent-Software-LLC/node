@@ -1,5 +1,20 @@
 # Changelog
 
+## v4.3.0, 2020-05-22
+
+### Added
+
+- Test coverage.
+- node_comp, node_error, and data_library runtime dependencies.
+
+### Edited
+
+- Gem Specification's email, summary, and description.
+- Deleted the node_impl dependencies.
+- Rewrote README.md.
+
+### Fixed
+
 ## v4.2.0, 2020-04-17
 
 ### Added
