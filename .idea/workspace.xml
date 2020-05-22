@@ -41,14 +41,24 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="" />
+    <list default="true" id="d41298b5-545c-4c95-976a-a21a253a4ff7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/node.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/node_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_test.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="386" />
+    <option name="myElementSize" value="363" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -85,6 +95,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="ytplugin.issueListCompactView" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -157,7 +168,12 @@
       <workItem from="1586622039930" duration="2516000" />
       <workItem from="1586998359477" duration="1202000" />
       <workItem from="1587075464215" duration="844000" />
-      <workItem from="1587170545504" duration="1513000" />
+      <workItem from="1587170545504" duration="2099000" />
+      <workItem from="1587215128746" duration="32000" />
+      <workItem from="1589906256887" duration="760000" />
+      <workItem from="1589916842941" duration="533000" />
+      <workItem from="1590100776529" duration="270000" />
+      <workItem from="1590161718090" duration="526000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Local Repository.&#10;&#10;The Node library directory was generated.">
       <created>1584021729760</created>
@@ -292,10 +308,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587172247592</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Prepare Deployment&#10;&#10;Removed deployment Travis CI settings. Updated Changelog.md.">
+      <created>1587172487325</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1587172487325</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem } Component: Library Sprints: 5 #{Development} " />
+        <option name="defaultSearch" value="project: Node Subsystem:{No Subsystem} Component: Library Sprints: 9 State: {Development} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -334,7 +357,8 @@
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Implementation dependency." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Edited Gem Specification. Implementation pessimistic versioning changed. The dependency updates patches and minor releases." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Edited Gem Specification. Implementation pessimistic versioning changed. The dependency updates patches and minor releases." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Removed deployment Travis CI settings. Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Removed deployment Travis CI settings. Updated Changelog.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -346,34 +370,34 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="693" y="223" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1585945083766" />
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1587172247159">
+    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2" timestamp="1587172487028">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587172247159" />
-    <state width="1526" height="271" key="GridCell.Tab.0.bottom" timestamp="1587172279086">
+    <state x="222" y="112" width="1251" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587172487028" />
+    <state width="1526" height="271" key="GridCell.Tab.0.bottom" timestamp="1590162048443">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1526" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587172279086" />
-    <state width="1526" height="271" key="GridCell.Tab.0.center" timestamp="1587172279084">
+    <state width="1526" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1590162048443" />
+    <state width="1526" height="271" key="GridCell.Tab.0.center" timestamp="1590162048443">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1526" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587172279084" />
-    <state width="1526" height="271" key="GridCell.Tab.0.left" timestamp="1587172279083">
+    <state width="1526" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1590162048443" />
+    <state width="1526" height="271" key="GridCell.Tab.0.left" timestamp="1590162048442">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1526" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587172279083" />
-    <state width="1526" height="271" key="GridCell.Tab.0.right" timestamp="1587172279085">
+    <state width="1526" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1590162048442" />
+    <state width="1526" height="271" key="GridCell.Tab.0.right" timestamp="1590162048443">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1526" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587172279085" />
+    <state width="1526" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1590162048443" />
     <state x="473" y="98" key="SettingsEditor" timestamp="1585945086401">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="473" y="98" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1585945086401" />
-    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1587076274844">
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2" timestamp="1587172800776">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1587076274844" />
+    <state x="436" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1587172800776" />
     <state x="632" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585934896837">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -386,12 +410,12 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1584042743864" />
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587172364172">
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590162229538">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587172364172" />
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590162229538" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/node@NodeTest.rcov" NAME="NodeTest Coverage Results" MODIFIED="1587172274756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node" />
+    <SUITE FILE_PATH="coverage/node@NodeTest.rcov" NAME="NodeTest Coverage Results" MODIFIED="1590162045241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node" />
   </component>
 </project>

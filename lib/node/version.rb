@@ -3,8 +3,8 @@
 
 # Node.
 # @class_description
-#   A doubly-linked Node data structure library. Composes the Data Structure
-#   and the Error components.
+#   A doubly-linked Node data structure library. Organizes the Node library
+#   components.
 class NodeLibrary
-  VERSION = '4.2.0'.freeze()
+  VERSION = '4.3.0'.freeze()
 end

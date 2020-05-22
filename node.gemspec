@@ -6,14 +6,15 @@ Gem::Specification.new do |spec|
   spec.name                  = "node"
   spec.version               = NodeLibrary::VERSION
   spec.authors               = ["Diligent Software LLC"]
-  spec.email                 = ["diligentsoftwarellc@gmail.com"]
-  spec.summary               = %q{A doubly-linked Node data structure library.}
+  spec.email                 = ["contact@diligentsoftware.org"]
+  spec.summary               = %q{A doubly-linked Node data structure library.
+Organizes the Node components.}
   spec.description           = %q{A doubly-linked Node data structure library.
-Donations support continuous improvement and maintenance. The aim is a
-reliable, integrable, and endurable Node library. Make a donation at the
-project's collective page: https://opencollective.com/node. One-time and
-recurring donations are available at $1, $2, $4, $8, and $16. Greatly
-appreciated.}
+Organizes the Node components. Donations support continuous improvement and
+maintenance. The aim is a reliable, integrable, and endurable Node library.
+Make a donation at the project's collective page: https://opencollective
+.com/node. One-time and recurring donations are available at $1, $2, $4, $8,
+and $16. Greatly appreciated.}
   spec.homepage              = "https://docs.diligentsoftware.org/node"
   spec.license               = "GPL-3.0"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.5")
@@ -38,11 +39,12 @@ appreciated.}
   spec.require_paths = ["lib"]
 
   # Development and testing dependencies.
-  spec.add_development_dependency 'bundler', '~> 2.1.0'
-  spec.add_development_dependency 'simplecov', '~> 0.17.0'
-  spec.add_development_dependency 'node_impl', '~> 3'
+  spec.add_development_dependency 'bundler', '~> 2.1'
+  spec.add_development_dependency 'simplecov', '~> 0'
 
   # Gem specific runtime dependencies.
-  spec.add_runtime_dependency 'node_impl', '~> 3'
+  spec.add_runtime_dependency 'node_comp', '~> 0'
+  spec.add_runtime_dependency 'node_error', '~> 3'
+  spec.add_runtime_dependency 'data_library', '~> 0'
 
 end

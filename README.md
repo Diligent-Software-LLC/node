@@ -1,17 +1,16 @@
 # node [![Gem Version](https://badge.fury.io/rb/node.svg)](https://badge.fury.io/rb/node) ![Gem](https://img.shields.io/gem/dt/node) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/node.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/node)
 
-A doubly-linked Node data structure library. The Type and Error components
- consist the library.
+A doubly-linked Node data structure library. Organizes the Node library
+ components.
 
 ## Installation
 
-- Refer the Library Packages 
-[Installation](https://docs.diligentsoftware.org/node-1/packages#library_installation) 
-section.
+- Refer Library's 
+[Packages](https://docs.diligentsoftware.org/node-1/packages#library).
 
 ## Documentation
 
-- Refer the Library's [homepage](https://docs.diligentsoftware.org/node).
+- Refer Library's [Homepage](https://docs.diligentsoftware.org/node).
 
 ## Contributing
 
@@ -24,12 +23,15 @@ donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.
 
 ### Report Bugs
 
-- Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/node/issues/3).
+- Refer the 
+[Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/node/issues/3).
 
 ### Fix Bugs
 
-- Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/node/issues/4).
+- Refer the 
+[Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/node/issues/4).
 
 ### Improve Functionality
 
-- Refer the [Improvements Procedure](https://github.com/Diligent-Software-LLC/node/issues/5).
+- Refer the 
+[Improvements Procedure](https://github.com/Diligent-Software-LLC/node/issues/5).
